@@ -599,13 +599,13 @@ public class FormMain extends JFrame {
 		addInterchangeSort();
 		lsCode.setSelectedIndex(0);
 		
-		btnNewButton = new JButton("Info");
-		btnNewButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				FormInfo form = new FormInfo();
-				form.setVisible(true);
-			}
-		});
+		//btnNewButton = new JButton("Info");
+		//btnNewButton.addActionListener(new ActionListener() {
+		//	public void actionPerformed(ActionEvent e) {
+		//		FormInfo form = new FormInfo();
+		//		form.setVisible(true);
+		//	}
+		//});
 		btnNewButton.setBackground(SystemColor.activeCaption);
 		btnNewButton.setBounds(1294, 5, 61, 31);
 		contentPane.add(btnNewButton);
