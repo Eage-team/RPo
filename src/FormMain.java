@@ -325,18 +325,18 @@ public class FormMain extends JFrame {
 				createRandom();
 			}
 		});
-		btnRandom.setBounds(15, 27, 120, 25);
+		//btnRandom.setBounds(15, 27, 120, 25);
 		
-		btnByHand = new JButton("B\u1EB1ng tay");
-		btnByHand.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				FormInput formInput = new FormInput();
-				formInput.setVisible(true);
-				setState(3);
-			}
-		});
-		btnByHand.setBackground(SystemColor.activeCaption);
-		btnByHand.setBounds(160, 27, 120, 25);
+		//btnByHand = new JButton("B\u1EB1ng tay");
+		//btnByHand.addActionListener(new ActionListener() {
+		//	public void actionPerformed(ActionEvent e) {
+		//		FormInput formInput = new FormInput();
+		//		formInput.setVisible(true);
+		//		setState(3);
+		//	}
+		//});
+		//btnByHand.setBackground(SystemColor.activeCaption);
+		//btnByHand.setBounds(160, 27, 120, 25);
 		
 		btnOpenFile = new JButton("M\u1EDF file");
 		btnOpenFile.addActionListener(new ActionListener() {
@@ -599,13 +599,13 @@ public class FormMain extends JFrame {
 		addInterchangeSort();
 		lsCode.setSelectedIndex(0);
 		
-		btnNewButton = new JButton("Info");
-		btnNewButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				FormInfo form = new FormInfo();
-				form.setVisible(true);
-			}
-		});
+		//btnNewButton = new JButton("Info");
+		//btnNewButton.addActionListener(new ActionListener() {
+		//	public void actionPerformed(ActionEvent e) {
+		//		FormInfo form = new FormInfo();
+		//		form.setVisible(true);
+		//	}
+		//});
 		btnNewButton.setBackground(SystemColor.activeCaption);
 		btnNewButton.setBounds(1294, 5, 61, 31);
 		contentPane.add(btnNewButton);
