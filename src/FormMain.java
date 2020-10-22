@@ -325,18 +325,18 @@ public class FormMain extends JFrame {
 				createRandom();
 			}
 		});
-		btnRandom.setBounds(15, 27, 120, 25);
+		//btnRandom.setBounds(15, 27, 120, 25);
 		
-		btnByHand = new JButton("B\u1EB1ng tay");
-		btnByHand.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				FormInput formInput = new FormInput();
-				formInput.setVisible(true);
-				setState(3);
-			}
-		});
-		btnByHand.setBackground(SystemColor.activeCaption);
-		btnByHand.setBounds(160, 27, 120, 25);
+		//btnByHand = new JButton("B\u1EB1ng tay");
+		//btnByHand.addActionListener(new ActionListener() {
+		//	public void actionPerformed(ActionEvent e) {
+		//		FormInput formInput = new FormInput();
+		//		formInput.setVisible(true);
+		//		setState(3);
+		//	}
+		//});
+		//btnByHand.setBackground(SystemColor.activeCaption);
+		//btnByHand.setBounds(160, 27, 120, 25);
 		
 		btnOpenFile = new JButton("M\u1EDF file");
 		btnOpenFile.addActionListener(new ActionListener() {
