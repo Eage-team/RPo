@@ -34,6 +34,7 @@ public class FormInput extends JFrame {
 	private int num = 0;
 	private int[] arrays;
 	private JButton btnOK;
+	private int ages=22;
 	/**
 	 * Launch the application.
 	 */
