@@ -18,6 +18,7 @@ public class FormInfo extends JFrame {
 	 */
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
+	int age = 22;
 
 	/**
 	 * Launch the application.
