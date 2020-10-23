@@ -104,6 +104,7 @@ public class FormMain extends JFrame {
     private Color processingColor = new Color(255, 153, 153);
     private Color selectedGreen = new Color(153, 255, 153);
     private Color selectedYellow = new Color(255, 255, 153);
+	private String name = "Pham Khanh";
 	/**
 	 * Launch the application.
 	 */
