@@ -16,6 +16,8 @@ public class FormInfo extends JFrame {
 	/**
 	 * 
 	 */
+int age = 22;
+int year = 2020;
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 
