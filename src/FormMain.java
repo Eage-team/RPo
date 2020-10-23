@@ -52,7 +52,7 @@ public class FormMain extends JFrame {
 	/**
 	 * Declare JObjects on JFrame
 	 */
-	//tes1
+	//tes123
 	private JPanel contentPane;
 	private JLabel lbTitle;
 	private JPanel pnImitiate;
